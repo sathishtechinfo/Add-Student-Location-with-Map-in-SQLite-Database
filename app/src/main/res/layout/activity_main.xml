@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="345dp"
+        android:layout_marginBottom="13dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_with_shadow"
+        android:layout_marginLeft="10dp" >
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:layout_marginStart="2dp"
+            android:layout_weight="1"
+            android:textSize="24dp"
+            android:textColor="#234241"
+            android:text="SIGNUP"
+            android:layout_marginLeft="2dp" />
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            android:layout_marginLeft="10dp" />
+
+        <EditText
+            android:id="@+id/edt_phone"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Phone"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/edt_password"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_weight="1"
+            android:hint="Password"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/edt_con_pass"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:layout_weight="1"
+            android:hint="Confirm Password"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:shadowColor="@android:color/transparent"
+            android:padding="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/shapesignup"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+</RelativeLayout>
